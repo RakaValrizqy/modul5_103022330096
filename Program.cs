@@ -52,9 +52,9 @@ class Program
         Console.WriteLine(PemrosesData.DapatkanNilaiTerbesar(x, y, z));
 
         SimpleDataBase<int> db = new SimpleDataBase<int>();
-        db.AddNewData(12);
-        db.AddNewData(34);
-        db.AddNewData(56);
+        db.AddNewData(x);
+        db.AddNewData(y);
+        db.AddNewData(z);
         db.PrintAllData();
     }
 }
