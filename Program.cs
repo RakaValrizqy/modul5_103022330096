@@ -16,17 +16,6 @@ public class PemrosesData
     }
 }
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        int x = 10;
-        int y = 30;
-        int z = 22;
-        Console.WriteLine(PemrosesData.DapatkanNilaiTerbesar(x, y, z));
-    }
-}
-
 public class SimpleDataBase<T>
 {
     private List<T> storedData;
@@ -57,6 +46,11 @@ class Program
 {
     static void Main(string[] args)
     {
+        int x = 10;
+        int y = 30;
+        int z = 22;
+        Console.WriteLine(PemrosesData.DapatkanNilaiTerbesar(x, y, z));
+
         SimpleDataBase<int> db = new SimpleDataBase<int>();
         db.AddNewData(12);
         db.AddNewData(34);
