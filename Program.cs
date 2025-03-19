@@ -14,16 +14,16 @@ public class PemrosesData
         }
         return t1;
     }
+}
 
-    class Program
+class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            int x = 10;
-            int y = 30;
-            int z = 22;
-            Console.WriteLine(PemrosesData.DapatkanNilaiTerbesar(x,y,z));
-        }
+        int x = 10;
+        int y = 30;
+        int z = 22;
+        Console.WriteLine(PemrosesData.DapatkanNilaiTerbesar(x, y, z));
     }
 }
 
